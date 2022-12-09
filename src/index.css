@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container h1 {
+  position: absolute;
+  color: #fff;
+  margin-top: -40px;
+  font-weight: 50;
+
+}
+
+body {
+  background-color: #1d2630;
+  height: 35%;
+  width: 570px;
+  position: absolute;
+  margin: auto;
+  top: 50px;
+  left: 0;
+  right: 0;
+  padding: 30px 0;
+  border-radius: 8px;
+}
+
+.newtask {
+  position: relative;
+  padding: 30px 15px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.newtask input {
+  border-radius: 5px;
+  width: 70%;
+  height: 45px;
+  font-size: 16px;
+  border: 2px solid #d1d3d4;
+  padding: 12px;
+  color: #111111;
+  font-weight: 500;
+  position: relative;
+}
+
+.newtask input:focus {
+  outline: none;
+  border-color: #19a68c;
+}
+
+.addtodo-btn {
+  position: relative;
+  float: right;
+  width: 70px;
+  height: 45px;
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #19A68C;
+  color: #fff;
+  border: none;
+  Outline: none;
+  cursor: pointer;
+}
+
+.todo {
+  min-width: 30%;
+  list-style: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  margin: 8px;
+  background: white;
+  color: black;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*.todo li{
+  padding: 8px;   
+}*/
+.todo input {
+  border-radius: 5px;
+  width: 180%;
+  height: 45px;
+  font-size: 16px;
+  border: none;
+  padding: 12px;
+  color: #111111;
+  font-weight: 500;
+  position: relative;
+}
+
+.todo input:focus {
+  outline: none;
+  border: 2px solid #d1d3d4;
+}
+
+.trash-btn {
+  position: relative;
+  float: right;
+  width: 50px;
+  height: 35px;
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 16px;
+  background: #ff6f47;
+  color: white;
+  border: none;
+  cursor: pointer;
+  align-items: center;
+  margin-left: 0px;
+}
+
+.Edit-btn {
+  position: relative;
+  float: right;
+  width: 60px;
+  height: 35px;
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 16px;
+  background: #2B547E;
+  color: white;
+  border: none;
+  cursor: pointer;
+  align-items: center;
+  margin-left: 185px;
+}
+
+.updatetodo-btn {
+  position: relative;
+  float: right;
+  width: 70px;
+  height: 45px;
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #2B547E;
+  color: #fff;
+  border: none;
+  Outline: none;
+  cursor: pointer;
+}
